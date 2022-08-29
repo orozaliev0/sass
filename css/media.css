@@ -1,0 +1,183 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1200px) {
+  #hero .hero--general {
+    justify-content: center;
+    flex-direction: column;
+  }
+  #about .about--general {
+    justify-content: center;
+    flex-direction: column;
+  }
+  #about .about--general__block {
+    width: 340px;
+  }
+  .hero--general img {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 1024px) {
+  #header .navbar--general button {
+    display: none;
+  }
+  #hero .hero--footer {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  #about .about--general__block img {
+    margin-left: 100px;
+  }
+  #about .about--general__block {
+    width: 290px;
+  }
+  #con .con--general {
+    justify-content: center;
+    flex-direction: column;
+  }
+  #footer .footer--general {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .navbar--general__title {
+    display: none;
+  }
+  #header .hamburger-menu {
+    display: block;
+  }
+  .about--general img {
+    width: 90%;
+  }
+  #about .about--block {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .dd {
+    padding: 13px 0;
+  }
+  .con--general img {
+    width: 90%;
+  }
+  #footer .footer--general__two h1 {
+    padding-top: 70px;
+  }
+}
+@media (max-width: 576px) {
+  #hero .hero--general .hero-general__block h1 {
+    font-size: 39px;
+  }
+  #hero .hero--general .hero-general__block h3 {
+    font-size: 14px;
+  }
+  #hero .hero--general .hero-general__block p {
+    font-size: 13px;
+  }
+  #hero .hero--general .hero-general__block button {
+    padding: 8px 10px;
+    font-size: 16px;
+  }
+  .hero--general img {
+    width: 90%;
+  }
+  #about .about--general__title h1 {
+    font-size: 30px;
+  }
+  #about .about--general__title p {
+    font-size: 14px;
+  }
+  #con .con--general h1 {
+    font-size: 30px;
+  }
+  #con .con--general p {
+    font-size: 13px;
+    padding: 16px 0;
+  }
+  #footer .footer--general {
+    margin-left: 57px;
+  }
+}
+@media (max-width: 400px) {
+  #hero .hero--general .hero-general__block h1 {
+    font-size: 32px;
+  }
+  #hero .hero--general .hero-general__block p {
+    font-size: 12px;
+  }
+  #about .about--general__title h1 {
+    font-size: 27px;
+  }
+  #con .con--general p {
+    padding: 10px 0;
+  }
+}
+@media (max-width: 376px) {
+  #about .about--general__title p {
+    font-size: 13px;
+  }
+  #hero .hero--general .hero-general__block p {
+    font-size: 11px;
+  }
+  #con .con--general p {
+    font-size: 11px;
+  }
+  #about .about--general__block h1 {
+    font-size: 20px;
+  }
+  #con .con--general h1 {
+    font-size: 27px;
+  }
+}
+@media (max-width: 351px) {
+  #header .navbar--general h1 {
+    display: none;
+  }
+  #hero .hero--general .hero-general__block h1 {
+    font-size: 26px;
+  }
+  #about .about--general__title p {
+    font-size: 12px;
+  }
+  #about .about--general__block p {
+    font-size: 12px;
+  }
+  #about .about--general__block {
+    height: 326px;
+  }
+  #con .con--general h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 320px) {
+  #hero .hero--general .hero-general__block p {
+    font-size: 10px;
+  }
+  #hero .hero--general .hero-general__block h3 {
+    font-size: 12px;
+  }
+  #hero .hero--general .hero-general__block button {
+    padding: 7px 7px;
+  }
+  #about .about--general__title h1 {
+    font-size: 25px;
+  }
+  #about .about--general__title p {
+    font-size: 11px;
+  }
+  #about .about--general__block {
+    width: 252px;
+    height: 293px;
+  }
+  #about .about--general__block img {
+    margin-left: 93px;
+    width: 55px;
+  }
+  #con .con--general h1 {
+    font-size: 23px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
